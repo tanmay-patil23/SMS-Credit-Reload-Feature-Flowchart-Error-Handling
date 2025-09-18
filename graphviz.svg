@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="906pt" height="956pt" viewBox="0.00 0.00 906.00 956.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 951.83)">
+<title>SMS_Credit_Reload_Flow</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-951.83 901.94,-951.83 901.94,4 -4,4"/>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<ellipse fill="lightblue" stroke="lightblue" cx="714.22" cy="-918.42" rx="98.79" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="714.22" y="-922.62" font-family="Helvetica,sans-Serif" font-size="14.00">Start</text>
+<text xml:space="preserve" text-anchor="middle" x="714.22" y="-905.82" font-family="Helvetica,sans-Serif" font-size="14.00">(Finance Executive)</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<path fill="none" stroke="black" d="M750.3,-852C750.3,-852 678.14,-852 678.14,-852 672.14,-852 666.14,-846 666.14,-840 666.14,-840 666.14,-828 666.14,-828 666.14,-822 672.14,-816 678.14,-816 678.14,-816 750.3,-816 750.3,-816 756.3,-816 762.3,-822 762.3,-828 762.3,-828 762.3,-840 762.3,-840 762.3,-846 756.3,-852 750.3,-852"/>
+<text xml:space="preserve" text-anchor="middle" x="714.22" y="-829.8" font-family="Helvetica,sans-Serif" font-size="14.00">Select Brand</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M714.22,-888.59C714.22,-880.58 714.22,-871.87 714.22,-863.86"/>
+<polygon fill="black" stroke="black" points="717.72,-863.91 714.22,-853.91 710.72,-863.91 717.72,-863.91"/>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<path fill="none" stroke="black" d="M672.29,-739.6C672.29,-739.6 586.15,-739.6 586.15,-739.6 580.15,-739.6 574.15,-733.6 574.15,-727.6 574.15,-727.6 574.15,-715.6 574.15,-715.6 574.15,-709.6 580.15,-703.6 586.15,-703.6 586.15,-703.6 672.29,-703.6 672.29,-703.6 678.29,-703.6 684.29,-709.6 684.29,-715.6 684.29,-715.6 684.29,-727.6 684.29,-727.6 684.29,-733.6 678.29,-739.6 672.29,-739.6"/>
+<text xml:space="preserve" text-anchor="middle" x="629.22" y="-717.4" font-family="Helvetica,sans-Serif" font-size="14.00">Display Outlets</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="black" d="M700.94,-815.75C687.17,-797.87 665.48,-769.69 649.55,-749.01"/>
+<polygon fill="black" stroke="black" points="652.48,-747.08 643.61,-741.29 646.94,-751.35 652.48,-747.08"/>
+</g>
+<!-- E1 -->
+<g id="node9" class="node">
+<title>E1</title>
+<path fill="none" stroke="red" d="M789.18,-758.5C789.18,-758.5 713.54,-726.3 713.54,-726.3 708.02,-723.95 708.02,-719.25 713.54,-716.9 713.54,-716.9 789.18,-684.7 789.18,-684.7 794.7,-682.35 805.74,-682.35 811.26,-684.7 811.26,-684.7 886.89,-716.9 886.89,-716.9 892.42,-719.25 892.42,-723.95 886.89,-726.3 886.89,-726.3 811.26,-758.5 811.26,-758.5 805.74,-760.85 794.7,-760.85 789.18,-758.5"/>
+<text xml:space="preserve" text-anchor="middle" x="800.22" y="-725.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Error:</text>
+<text xml:space="preserve" text-anchor="middle" x="800.22" y="-709" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Invalid Brand</text>
+</g>
+<!-- B&#45;&gt;E1 -->
+<g id="edge8" class="edge">
+<title>B-&gt;E1</title>
+<path fill="none" stroke="black" d="M727.66,-815.75C738.81,-801.43 755.11,-780.51 769.43,-762.12"/>
+<polygon fill="black" stroke="black" points="772.18,-764.29 775.56,-754.25 766.65,-759.99 772.18,-764.29"/>
+<text xml:space="preserve" text-anchor="middle" x="792.51" y="-785.4" font-family="Times,serif" font-size="14.00">Invalid/Empty</text>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<path fill="none" stroke="black" d="M602.64,-603.6C602.64,-603.6 483.8,-603.6 483.8,-603.6 477.8,-603.6 471.8,-597.6 471.8,-591.6 471.8,-591.6 471.8,-579.6 471.8,-579.6 471.8,-573.6 477.8,-567.6 483.8,-567.6 483.8,-567.6 602.64,-567.6 602.64,-567.6 608.64,-567.6 614.64,-573.6 614.64,-579.6 614.64,-579.6 614.64,-591.6 614.64,-591.6 614.64,-597.6 608.64,-603.6 602.64,-603.6"/>
+<text xml:space="preserve" text-anchor="middle" x="543.22" y="-581.4" font-family="Helvetica,sans-Serif" font-size="14.00">Enter Credit Amount</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="black" d="M618.15,-703.36C603.51,-680.54 577.55,-640.09 560.36,-613.31"/>
+<polygon fill="black" stroke="black" points="563.41,-611.58 555.06,-605.05 557.52,-615.36 563.41,-611.58"/>
+</g>
+<!-- E2 -->
+<g id="node10" class="node">
+<title>E2</title>
+<path fill="none" stroke="red" d="M704.51,-621.78C704.51,-621.78 643.79,-591.02 643.79,-591.02 638.43,-588.31 638.43,-582.89 643.79,-580.18 643.79,-580.18 704.51,-549.42 704.51,-549.42 709.87,-546.71 720.57,-546.71 725.92,-549.42 725.92,-549.42 786.65,-580.18 786.65,-580.18 792,-582.89 792,-588.31 786.65,-591.02 786.65,-591.02 725.92,-621.78 725.92,-621.78 720.57,-624.49 709.87,-624.49 704.51,-621.78"/>
+<text xml:space="preserve" text-anchor="middle" x="715.22" y="-589.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Error:</text>
+<text xml:space="preserve" text-anchor="middle" x="715.22" y="-573" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">No Outlets</text>
+</g>
+<!-- C&#45;&gt;E2 -->
+<g id="edge9" class="edge">
+<title>C-&gt;E2</title>
+<path fill="none" stroke="black" d="M640.29,-703.36C652.6,-684.18 672.9,-652.53 689.27,-627.03"/>
+<polygon fill="black" stroke="black" points="692.06,-629.17 694.51,-618.86 686.17,-625.39 692.06,-629.17"/>
+<text xml:space="preserve" text-anchor="middle" x="712.17" y="-649.4" font-family="Times,serif" font-size="14.00">None Found</text>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<path fill="none" stroke="black" d="M482.7,-467.6C482.7,-467.6 367.73,-467.6 367.73,-467.6 361.73,-467.6 355.73,-461.6 355.73,-455.6 355.73,-455.6 355.73,-443.6 355.73,-443.6 355.73,-437.6 361.73,-431.6 367.73,-431.6 367.73,-431.6 482.7,-431.6 482.7,-431.6 488.7,-431.6 494.7,-437.6 494.7,-443.6 494.7,-443.6 494.7,-455.6 494.7,-455.6 494.7,-461.6 488.7,-467.6 482.7,-467.6"/>
+<text xml:space="preserve" text-anchor="middle" x="425.22" y="-445.4" font-family="Helvetica,sans-Serif" font-size="14.00">Generate Quotation</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge4" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="black" d="M528.03,-567.36C507.68,-544.24 471.38,-503.02 447.81,-476.25"/>
+<polygon fill="black" stroke="black" points="450.58,-474.11 441.35,-468.91 445.33,-478.73 450.58,-474.11"/>
+</g>
+<!-- E3 -->
+<g id="node11" class="node">
+<title>E3</title>
+<path fill="none" stroke="red" d="M650.66,-487.99C650.66,-487.99 523.94,-452.81 523.94,-452.81 518.16,-451.21 518.16,-447.99 523.94,-446.39 523.94,-446.39 650.66,-411.21 650.66,-411.21 656.44,-409.61 668,-409.61 673.78,-411.21 673.78,-411.21 800.5,-446.39 800.5,-446.39 806.28,-447.99 806.28,-451.21 800.5,-452.81 800.5,-452.81 673.78,-487.99 673.78,-487.99 668,-489.59 656.44,-489.59 650.66,-487.99"/>
+<text xml:space="preserve" text-anchor="middle" x="662.22" y="-453.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Error:</text>
+<text xml:space="preserve" text-anchor="middle" x="662.22" y="-437" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Invalid Credit Amount</text>
+</g>
+<!-- D&#45;&gt;E3 -->
+<g id="edge10" class="edge">
+<title>D-&gt;E3</title>
+<path fill="none" stroke="black" d="M558.53,-567.36C575.4,-548.37 603.11,-517.16 625.64,-491.79"/>
+<polygon fill="black" stroke="black" points="628.03,-494.37 632.06,-484.57 622.8,-489.72 628.03,-494.37"/>
+<text xml:space="preserve" text-anchor="middle" x="646.2" y="-513.4" font-family="Times,serif" font-size="14.00">Invalid Input</text>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<path fill="none" stroke="black" d="M359.85,-331.6C359.85,-331.6 170.59,-331.6 170.59,-331.6 164.59,-331.6 158.59,-325.6 158.59,-319.6 158.59,-319.6 158.59,-307.6 158.59,-307.6 158.59,-301.6 164.59,-295.6 170.59,-295.6 170.59,-295.6 359.85,-295.6 359.85,-295.6 365.85,-295.6 371.85,-301.6 371.85,-307.6 371.85,-307.6 371.85,-319.6 371.85,-319.6 371.85,-325.6 365.85,-331.6 359.85,-331.6"/>
+<text xml:space="preserve" text-anchor="middle" x="265.22" y="-309.4" font-family="Helvetica,sans-Serif" font-size="14.00">Send Email + QuickBooks Sync</text>
+</g>
+<!-- E&#45;&gt;F -->
+<g id="edge5" class="edge">
+<title>E-&gt;F</title>
+<path fill="none" stroke="black" d="M404.63,-431.36C376.62,-407.9 326.37,-365.81 294.46,-339.09"/>
+<polygon fill="black" stroke="black" points="297.06,-336.7 287.14,-332.96 292.56,-342.07 297.06,-336.7"/>
+</g>
+<!-- E4 -->
+<g id="node12" class="node">
+<title>E4</title>
+<path fill="none" stroke="red" d="M573.48,-352.7C573.48,-352.7 402.02,-316.1 402.02,-316.1 396.15,-314.85 396.15,-312.35 402.02,-311.1 402.02,-311.1 573.48,-274.5 573.48,-274.5 579.35,-273.25 591.09,-273.25 596.95,-274.5 596.95,-274.5 768.42,-311.1 768.42,-311.1 774.29,-312.35 774.29,-314.85 768.42,-316.1 768.42,-316.1 596.95,-352.7 596.95,-352.7 591.09,-353.95 579.35,-353.95 573.48,-352.7"/>
+<text xml:space="preserve" text-anchor="middle" x="585.22" y="-317.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Error:</text>
+<text xml:space="preserve" text-anchor="middle" x="585.22" y="-301" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Missing Email / Server Down</text>
+</g>
+<!-- E&#45;&gt;E4 -->
+<g id="edge11" class="edge">
+<title>E-&gt;E4</title>
+<path fill="none" stroke="black" d="M445.81,-431.36C468.85,-412.06 506.97,-380.13 537.52,-354.54"/>
+<polygon fill="black" stroke="black" points="539.75,-357.24 545.17,-348.14 535.26,-351.88 539.75,-357.24"/>
+<text xml:space="preserve" text-anchor="middle" x="568.66" y="-377.4" font-family="Times,serif" font-size="14.00">Missing Email/Fail</text>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<path fill="none" stroke="black" d="M212.35,-195.6C212.35,-195.6 88.08,-195.6 88.08,-195.6 82.08,-195.6 76.08,-189.6 76.08,-183.6 76.08,-183.6 76.08,-171.6 76.08,-171.6 76.08,-165.6 82.08,-159.6 88.08,-159.6 88.08,-159.6 212.35,-159.6 212.35,-159.6 218.35,-159.6 224.35,-165.6 224.35,-171.6 224.35,-171.6 224.35,-183.6 224.35,-183.6 224.35,-189.6 218.35,-195.6 212.35,-195.6"/>
+<text xml:space="preserve" text-anchor="middle" x="150.22" y="-173.4" font-family="Helvetica,sans-Serif" font-size="14.00">Allocate SMS Credits</text>
+</g>
+<!-- F&#45;&gt;G -->
+<g id="edge6" class="edge">
+<title>F-&gt;G</title>
+<path fill="none" stroke="black" d="M250.42,-295.36C230.58,-272.24 195.21,-231.02 172.24,-204.25"/>
+<polygon fill="black" stroke="black" points="175.12,-202.24 165.95,-196.93 169.8,-206.79 175.12,-202.24"/>
+</g>
+<!-- E5 -->
+<g id="node13" class="node">
+<title>E5</title>
+<path fill="none" stroke="red" d="M368.73,-215.72C368.73,-215.72 254.33,-181.08 254.33,-181.08 248.58,-179.34 248.58,-175.86 254.33,-174.12 254.33,-174.12 368.73,-139.48 368.73,-139.48 374.48,-137.74 385.96,-137.74 391.7,-139.48 391.7,-139.48 506.11,-174.12 506.11,-174.12 511.86,-175.86 511.86,-179.34 506.11,-181.08 506.11,-181.08 391.7,-215.72 391.7,-215.72 385.96,-217.46 374.48,-217.46 368.73,-215.72"/>
+<text xml:space="preserve" text-anchor="middle" x="380.22" y="-181.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Error:</text>
+<text xml:space="preserve" text-anchor="middle" x="380.22" y="-165" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">QuickBooks Failure</text>
+</g>
+<!-- F&#45;&gt;E5 -->
+<g id="edge12" class="edge">
+<title>F-&gt;E5</title>
+<path fill="none" stroke="black" d="M280.02,-295.36C296.3,-276.39 323.04,-245.23 344.8,-219.87"/>
+<polygon fill="black" stroke="black" points="347.43,-222.19 351.28,-212.32 342.11,-217.63 347.43,-222.19"/>
+<text xml:space="preserve" text-anchor="middle" x="372.95" y="-241.4" font-family="Times,serif" font-size="14.00">Integration Fail</text>
+</g>
+<!-- H -->
+<g id="node8" class="node">
+<title>H</title>
+<ellipse fill="lightblue" stroke="lightblue" cx="28.22" cy="-41.6" rx="28.22" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="28.22" y="-37.4" font-family="Helvetica,sans-Serif" font-size="14.00">End</text>
+</g>
+<!-- G&#45;&gt;H -->
+<g id="edge7" class="edge">
+<title>G-&gt;H</title>
+<path fill="none" stroke="black" d="M134.52,-159.36C112.89,-135.6 73.87,-92.74 49.6,-66.08"/>
+<polygon fill="black" stroke="black" points="52.32,-63.87 43,-58.83 47.14,-68.58 52.32,-63.87"/>
+</g>
+<!-- E6 -->
+<g id="node14" class="node">
+<title>E6</title>
+<path fill="none" stroke="red" d="M261.47,-80.74C261.47,-80.74 86.1,-44.06 86.1,-44.06 80.22,-42.83 80.22,-40.37 86.1,-39.14 86.1,-39.14 261.47,-2.46 261.47,-2.46 267.35,-1.23 279.09,-1.23 284.96,-2.46 284.96,-2.46 460.34,-39.14 460.34,-39.14 466.21,-40.37 466.21,-42.83 460.34,-44.06 460.34,-44.06 284.96,-80.74 284.96,-80.74 279.09,-81.97 267.35,-81.97 261.47,-80.74"/>
+<text xml:space="preserve" text-anchor="middle" x="273.22" y="-45.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Error:</text>
+<text xml:space="preserve" text-anchor="middle" x="273.22" y="-29" font-family="Helvetica,sans-Serif" font-size="14.00" fill="red">Insufficient / Partial Allocation</text>
+</g>
+<!-- G&#45;&gt;E6 -->
+<g id="edge13" class="edge">
+<title>G-&gt;E6</title>
+<path fill="none" stroke="black" d="M166.05,-159.36C183.13,-140.75 210.97,-110.41 234,-85.32"/>
+<polygon fill="black" stroke="black" points="236.4,-87.89 240.58,-78.16 231.24,-83.16 236.4,-87.89"/>
+<text xml:space="preserve" text-anchor="middle" x="271.57" y="-105.4" font-family="Times,serif" font-size="14.00">Insufficient/Partial</text>
+</g>
+</g>
+</svg>
